@@ -360,7 +360,7 @@ input, button{
 
     <div class="footer">
 		
-		<a href="http://www.vitim.us">Vitim.us</a>
+		<a href="https://discord.gg/AVGYj7rQmP">Discord</a>
 	</div>
 
 </div>
@@ -423,19 +423,6 @@ window.onload=function(){
 	else defaults();
 
 	
-
-	/*document.getElementsByTagName("form")[0].onsubmit = function(e){
-
-		if (e.stopPropagation) e.stopPropagation();
-	    else e.cancelBubble = true;
-	    if (e.preventDefault) e.preventDefault();
-	    else e.returnValue = false;
-		this.returnValue = false;
-
-		calc();
-
-		return false;
-	}*/
 
 
 };
@@ -516,27 +503,6 @@ function calc(){
 		window.localStorage.setItem('downloadtime.file', fileSize.value);
 		window.localStorage.setItem('downloadtime.fileBase', fileSizeBase.value);
 	}
-	
-	/*
-	
-	var t = msToTime(transferTime);
-	console.log(t);
-	str = [];
-	
-	if(t.years >= 1) str.push( t.years + " year" + (t.years>=2?"s":"") );
-	if(t.months >= 1) str.push( t.months + " month" + (t.months>=2?"s":"") );
-	if(t.weeks >= 1) str.push( t.weeks + " week" + (t.weeks>=2?"s":"") );
-	if(t.days >= 1) str.push( t.days + " day" + (t.days>=2?"s":"") );
-	if(t.hours >= 1) str.push( t.hours + " hour" + (t.hours>=2?"s":"") );
-	if(t.minutes >= 1) str.push( t.minutes + " minute" + (t.minutes>=2?"s":"") );
-	if(t.seconds >= 1) str.push( t.seconds + " second" + (t.seconds>=2?"s":"") );
-	if(t.ms >= 1) str.push( t.ms + " ms" );
-	
-	//time.innerHTML = str.join(", ")+".";
-	
-	//time.innerHTML = moment.duration(transferTime).humanize();
-	
-	*/
 
 }
 
